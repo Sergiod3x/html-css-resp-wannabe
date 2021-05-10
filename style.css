@@ -84,7 +84,18 @@ img {
   }
 
   #lezioni .row{
-    min-width: 100vw;
     background-color: bisque;
+  }
+
+  #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 100%;
+}
+
+
+#why .row{
+  background-color: bisque;
   }
 }
