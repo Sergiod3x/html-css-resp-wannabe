@@ -84,10 +84,13 @@ img {
   }
 
   #lezioni .row{
+    padding-top: 15px;
     background-color: bisque;
   }
 
-  #steps .row>.left,
+
+  /* BLOCCO PERCHE */
+#steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   float: left;
@@ -96,6 +99,15 @@ img {
 
 
 #why .row{
+  padding-top: 15px;
   background-color: bisque;
   }
+
+body{
+  font-size:xx-large;
+}
+
+h3{
+  margin: 0;
+}
 }
